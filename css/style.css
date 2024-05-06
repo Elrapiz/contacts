@@ -1,0 +1,29 @@
+/* #region RESET */
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: inherit;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Segoe UI', system-ui, -apple-system, BlinkMacSystemFont, Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    min-height: 100dvh;
+}
+/* #endregion */
+
+
+
+/* #region UTILS */
+.wrapper {
+    max-width: 800px;
+    margin-inline: auto;
+    padding-inline: 1em;
+}
+/* #endregion */
